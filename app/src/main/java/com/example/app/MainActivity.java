@@ -21,7 +21,7 @@ public class MainActivity extends Activity {
         mWebView.setWebViewClient(new MyWebViewClient());
 
         // REMOTE RESOURCE
-         mWebView.loadUrl("https://jee-master-1.vercel.app/");
+        mWebView.loadUrl("https://jee-master-1.vercel.app");
 
         // LOCAL RESOURCE
         // mWebView.loadUrl("file:///android_asset/index.html");
